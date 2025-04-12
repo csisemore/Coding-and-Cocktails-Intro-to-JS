@@ -1,26 +1,23 @@
-// Define two numeric variables
-//const valium = 5;
-//const cat = 25;
+const addDevSkill = function (skill) {
+    let listItem = document.createElement('li');
+    listItem.innerHTML = skill;
+    document.getElementById("coding-section").appendChild(listItem);
+};
 
-// Set a new variable to determine if twice the first numeric variable is greater than the second numeric variable from above.
-//const sleep = <noun_1> * 2 > cat;
-//const sleep = valium * 2 > < cat;
+const <verb> = function (item) {
+   return 'I\'d like a ' + item + ', please!';
+};
+ 
+const <noun> = 'cocktail';
 
-// Output the comparison.
-//document.getElementById("math").innerHTL = sleep;
+const clickHandler = function (text) {
 
-// Practice types and equality
-//document.getElementById("type").innerHTML = typeof valium;
+};
 
- // Define two numeric variables
-const valium = 5;
-const cat = 25;
+// Declare brainSkills array below this line
 
-// Set a new variable to determine if twice the first numeric variable is greater than the second numeric variable from above.
-const sleep = valium * 2 > cat;
+document.addEventListener("DOMContentLoaded", function (event) {
 
-// Output the comparison.
-document.getElementById("math").innerHTML = sleep;
+   document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
 
-// Practice types and equality
-document.getElementById("type").innerHTML = typeof valium;
+});
