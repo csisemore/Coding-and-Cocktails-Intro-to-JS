@@ -1,12 +1,26 @@
 // Define two numeric variables
-const <noun_1> = 5;
-const <noun_2> = 25;
+//const valium = 5;
+//const cat = 25;
 
 // Set a new variable to determine if twice the first numeric variable is greater than the second numeric variable from above.
-const <noun_3> = <noun_1> * 2 > <noun_2>;
+//const sleep = <noun_1> * 2 > cat;
+//const sleep = valium * 2 > < cat;
 
 // Output the comparison.
-document.getElementById("math").innerHTML = <noun_3>;
+//document.getElementById("math").innerHTL = sleep;
 
 // Practice types and equality
-document.getElementById("type").innerHTML = typeof <noun_1>;
+//document.getElementById("type").innerHTML = typeof valium;
+
+ // Define two numeric variables
+const valium = 5;
+const cat = 25;
+
+// Set a new variable to determine if twice the first numeric variable is greater than the second numeric variable from above.
+const sleep = valium * 2 > cat;
+
+// Output the comparison.
+document.getElementById("math").innerHTML = sleep;
+
+// Practice types and equality
+document.getElementById("type").innerHTML = typeof valium;
